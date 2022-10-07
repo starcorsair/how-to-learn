@@ -23,11 +23,12 @@ a {
 }
 
 .logo {
-  background-image: url(../images/logo_place_header.svg);
   height: 32px;
   width: 228px;
 }
 .logo__place_header {
+  background-image: url(../images/logo_place_header.svg);
+  background-repeat: no-repeat;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -133,22 +134,22 @@ a {
 }
 .section-title {
   text-align: center;
-}
-.section-title__style-digits {
   line-height: 1.15px;
   font-size: 60px;
   font-weight: 600;
+}
+.section-title__style-digits {
   color: #000000;
 }
 .section-subtitle {
   text-align: center;
   margin-bottom: 60px;
   margin-top: 20px;
-}
-.section-subtitle__style-digits {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+.section-subtitle__style-digits {
   color: #000000;
 }
 .table {
@@ -161,18 +162,22 @@ a {
 .table__cell {
   width: 250px;
 }
-.table__heading_style-digits {
+.table__heading {
   line-height: 1.15em;
   font-size: 24px;
   font-weight: 600;
+}
+.table__heading_style-digits {
   color: #000000;
 }
-.table__text_style-digits {
+.table__text {
   line-height: 1.2em;
   font-size: 18px;
   font-weight: normal;
-  color: #000000;
   margin-top: 20px;
+}
+.table__text_style-digits {
+  color: #000000;
 }
 .feynman {
   border: 1px solid red;
@@ -212,11 +217,85 @@ a {
 .feynman__link ::after {
   color: #2f80ed;
 }
-/* и элемента с модификатором вида ключ-значение */
-/*
+.kaufman {
+  background-color: #1f1f1f;
+  border: 1px solid red;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 100px;
+  padding-bottom: 90px;
+}
+.section-title_theme_dark {
+  color: white;
+  margin-top: 90px;
+  z-index: 5;
+}
+.section-subtitle_theme_dark {
+  color: white;
+  margin-top: 20px;
+  z-index: 2;
+}
+.table__theme_dark {
+  z-index: 5;
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-} */
+  z-index: 5;
+}
+.kaufman__triangle {
+  position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+  overflow: hidden;
+}
+.footer {
+  background-color: #1f1f1f;
+  border: 1px solid red;
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+}
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+.logo {
+  height: 32px;
+  width: 228px;
+}
+.logo__place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  background-repeat: no-repeat;
+}
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+.footer__column-links {
+  list-style: none;
+}
+.footer__column-heading {
+  color: white;
+}
+.column_link_object {
+  color: white;
+}
+.column_link_object::after {
+  color: white;
+}
