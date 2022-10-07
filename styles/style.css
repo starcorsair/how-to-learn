@@ -272,10 +272,7 @@ a {
   flex-basis: 711px;
   position: relative;
 }
-.logo {
-  height: 32px;
-  width: 228px;
-}
+
 .logo__place_footer {
   background-image: url(../images/logo_place_footer.svg);
   background-repeat: no-repeat;
@@ -310,9 +307,4 @@ a {
 .column_social_icon {
   width: 16px;
   height: 16px;
-}
-.footer__column-links {
-  display: block;
-  margin-top: 20px;
-  padding: 0px;
 }
