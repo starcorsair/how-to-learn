@@ -257,6 +257,7 @@ a {
   min-height: 350px;
   padding-top: 60px;
   padding-bottom: 40px;
+  box-sizing: border-box;
 }
 .footer__columns {
   display: flex;
@@ -265,9 +266,12 @@ a {
   width: 90%;
 }
 .footer__column {
-  min-height: 10px;
+  min-height: 252px;
 }
 .footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex-basis: 711px;
   position: relative;
 }
@@ -282,17 +286,20 @@ a {
   font-weight: normal;
   color: white;
   position: absolute;
-  bottom: 0px;
   left: 0px;
+  bottom: 0px;
 }
+
 .footer__column-links {
   list-style: none;
+  padding: 0px;
 }
 .footer__column-heading {
   color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  margin: 0px;
 }
 .column_link_object {
   color: white;
