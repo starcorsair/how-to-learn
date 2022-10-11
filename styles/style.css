@@ -1,3 +1,4 @@
+/*Разметка страницы под экраны размера 1100px и 1600px*/
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -10,7 +11,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  position: relative;
+  position: relative; /*Позиционирование header для правильного размещение лого и картинок*/
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -20,6 +21,7 @@
   height: 32px;
   width: 228px;
 }
+/*Изображение и позиционирование логотипа для header*/
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg);
   background-repeat: no-repeat;
@@ -111,6 +113,7 @@
   color: #000000;
   margin: 0px;
 }
+/*Отступы для соотвествия параграфов брифу*/
 .two-columns__paragraph:last-of-type {
   margin-top: 30px;
   margin-bottom: 0px;
@@ -177,7 +180,7 @@
 }
 
 .feynman {
-  position: relative;
+  position: relative; /*Позиционирование для правильного размещения ссылки*/
   min-height: 890px;
   padding-top: 100px;
   background-color: #f2f2f2;
@@ -221,7 +224,7 @@
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; /*Св-во для верного отображения .kaufman__triangle*/
   padding-bottom: 90px;
   padding-top: 80px;
 }
@@ -286,13 +289,14 @@
 .footer__column {
   min-height: 252px;
 }
+/*Заданы св-ва для правильного размещения .footer__author*/
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
 }
-
+/*Изображение и позиционирование логотипа для footer*/
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
   background-repeat: no-repeat;
