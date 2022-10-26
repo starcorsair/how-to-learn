@@ -31,7 +31,7 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
-@import url(.../blocks/video/__iframe/_first-of-type/video__iframe_first-of-type.css);
+@import url(../blocks/video/__iframe/_first-of-type/video__iframe_first-of-type.css);
 /*block oacley*/
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/two-columns/two-columns.css);
