@@ -5,58 +5,5 @@
   padding-bottom: 40px;
   box-sizing: border-box;
 }
-.footer__columns {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 90%;
-}
-.footer__column {
-  min-height: 252px;
-}
+
 /*Заданы св-ва для правильного размещения .footer__author*/
-.footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-basis: 711px;
-}
-
-.footer__author {
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  color: white;
-}
-
-.footer__column-links {
-  list-style: none;
-  padding: 0px;
-}
-
-.footer__column-heading {
-  color: white;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0px;
-}
-.footer__column-link {
-  color: white;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  text-decoration: none;
-  transition: opacity 0.2s linear;
-}
-.footer__column-link::after {
-  color: white;
-  text-decoration: none;
-}
-.footer__column-link:hover {
-  opacity: 0.5;
-}
-.footer__social-icon {
-  width: 16px;
-  height: 16px;
-}
