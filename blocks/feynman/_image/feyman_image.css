@@ -1,0 +1,4 @@
+/*Изборажаение отображается только через абсолютный путь*/
+.feynman_image {
+  background: url(../../../images/feynman.png) no-repeat left bottom;
+}

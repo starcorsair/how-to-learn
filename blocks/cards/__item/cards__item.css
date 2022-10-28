@@ -1,5 +1,4 @@
 .cards__item {
-  margin-top: 60px;
-  margin-right: 100px;
-  width: 204px;
+  margin: 60px 25px 0;
+  width: 240px;
 }

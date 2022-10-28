@@ -8,3 +8,9 @@
   transition: opacity 0.2s linear;
   cursor: pointer;
 }
+.khan__buy-link::after {
+  color: #2f80ed;
+}
+.khan__buy-link:hover {
+  opacity: 0.5;
+}

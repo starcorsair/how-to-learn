@@ -4,8 +4,15 @@
   font-size: 34px;
   font-weight: normal;
   position: absolute;
-  right: 15px;
-  top: 445px;
+  right: 48px;
+  top: 50%;
   text-decoration: none;
   transition: opacity 0.2s linear;
+}
+.feynman__link ::after {
+  color: #2f80ed;
+  text-decoration: none;
+}
+.feynman__link:hover {
+  opacity: 0.5;
 }
