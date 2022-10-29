@@ -7,10 +7,6 @@
   transition: opacity 0.2s linear;
   margin: 0;
 }
-.footer__column-link::after {
-  color: white;
-  text-decoration: none;
-}
 .footer__column-link:hover {
   opacity: 0.5;
 }
