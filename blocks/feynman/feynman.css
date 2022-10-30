@@ -3,4 +3,7 @@
   min-height: 890px;
   padding-top: 100px;
   background-color: #f2f2f2;
+  background: url(../../../images/feynman.png) no-repeat left bottom;
 }
+/*фоновое изображение вставлено таким образом
+потому что тесты находили ошибку в названии класса "feynman_image" по неизвестной причине*/
