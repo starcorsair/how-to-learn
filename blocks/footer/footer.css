@@ -4,6 +4,7 @@
   padding-top: 60px;
   padding-bottom: 40px;
   box-sizing: border-box;
+  display: flex;
 }
 
 /*Заданы св-ва для правильного размещения .footer__author*/

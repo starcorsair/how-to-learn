@@ -1,9 +1,19 @@
 .feynman__title {
+  position: absolute;
+  top: 0;
+
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  margin: 100px auto 70px;
+
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
   color: #000000;
-  margin: 0 auto;
+
   max-width: 648px;
+  z-index: 1;
 }
+/*результата как на брифе можно добиться ТОЛЬКО через абсолютное позцинонирование*/
