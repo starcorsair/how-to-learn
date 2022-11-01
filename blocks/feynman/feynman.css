@@ -1,8 +1,7 @@
 .feynman {
   position: relative; /*Позиционирование для правильного размещения ссылки*/
   min-height: 890px;
-  padding: 0;
-  margin: 0;
+  padding-top: 100px;
   background-color: #f2f2f2;
 }
 

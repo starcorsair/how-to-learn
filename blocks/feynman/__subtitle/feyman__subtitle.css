@@ -1,9 +1,6 @@
 .feynman__subtitle {
-  position: absolute;
-  margin: 0;
-  top: 50%;
-  left: 0;
-  right: 0;
+  position: relative;
+  margin: 0 auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
