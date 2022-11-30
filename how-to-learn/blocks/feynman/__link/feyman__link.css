@@ -1,0 +1,21 @@
+.feynman__link {
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 34px;
+  font-weight: normal;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+  z-index: 1;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
+}
+/*ссылка стоит ТОЧНО по брифу*/
+
+/*в брифе первого спринта прямо сказано насчет блока feynman: "В вашей вёрстке внешний вид секции
+может отличаться от прототипа. Ссылка может располагаться не на
+одном уровне с подзаголовком.*/

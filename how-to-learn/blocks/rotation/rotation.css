@@ -1,0 +1,23 @@
+@keyframes rotation {
+  from {
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -o-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation-name: rotation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}

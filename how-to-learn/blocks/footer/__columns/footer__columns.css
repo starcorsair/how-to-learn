@@ -1,0 +1,8 @@
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+/*отступы в __columns поставлены ТОЧНО ПО БРИФУ
+  и это было уже ПРОВЕРЕНО*/

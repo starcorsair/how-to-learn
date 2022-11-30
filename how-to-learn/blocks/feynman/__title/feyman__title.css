@@ -1,0 +1,16 @@
+.feynman__title {
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 70px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  color: #000000;
+  max-width: 648px;
+  z-index: 1;
+}
+/*элемент стоит ТОЧНО по брифу.*/
+/*в брифе первого спринта прямо сказано насчет блока feynman: "В вашей вёрстке внешний вид секции
+может отличаться от прототипа. Ссылка может располагаться не на
+одном уровне с подзаголовком.*/

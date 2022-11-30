@@ -1,0 +1,8 @@
+/*Изображение и позиционирование логотипа для header*/
+.logo_place_header {
+  background-image: url(../../../images/logo_place_header.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}

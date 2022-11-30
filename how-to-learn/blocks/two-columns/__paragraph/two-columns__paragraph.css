@@ -1,0 +1,16 @@
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #000000;
+  margin: 0px;
+}
+/*Отступы для соотвествия параграфов брифу*/
+.two-columns__paragraph:last-of-type {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.two-columns__paragraph:first-of-type {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}

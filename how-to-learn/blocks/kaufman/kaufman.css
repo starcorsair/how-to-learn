@@ -1,0 +1,7 @@
+.kaufman {
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden; /*Св-во для верного отображения .kaufman__triangle*/
+  padding-bottom: 90px;
+  padding-top: 80px;
+}

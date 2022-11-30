@@ -1,0 +1,8 @@
+.cards__item {
+  margin-top: 60px;
+  margin-left: 100px;
+  max-width: 240px;
+}
+.cards__item:nth-child(3n + 1) {
+  margin-left: 0;
+}
